@@ -12,62 +12,80 @@ document.addEventListener("contextmenu", function(e){
 }, false);
 </script>
 
+<style>
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
 </head>
 <body>
 
 <div class="container">
 
 <center><img id="img1" src="izzi.png" alt="logo izzi"></center><br>
-<center><h1>CAMBIO DE CONTRASEÑA Y CONFIGURACION MFA</h1></center><br><br>
-<center><h2>CAMBIO DE CONTRASEÑA</h2></center><br>
+<center><h1>BUSQUEDA DE TAG</h1></center>
+<center><h2>CCI</h2></center><br>
 
 <!-- VIDEO 1 -->
-<center>
-<iframe 
-src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=76704e14-39e2-4c71-9920-d3f90edb7a0b&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-width="640" 
-height="360" 
-frameborder="0" 
-scrolling="no" 
-allowfullscreen 
-title="Cambio de contraseña.mov">
-</iframe>
-</center>
+<div class="video-wrapper">
+  <iframe 
+  src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=76704e14-39e2-4c71-9920-d3f90edb7a0b&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+  frameborder="0"
+  scrolling="no"
+  allowfullscreen
+  title="Cambio de contraseña.mov">
+  </iframe>
+</div>
 
 <br><br>
-<center><h2>RECUPERAR CONTRASEÑA</h2></center><br>
+
 <!-- VIDEO 2 -->
-<center>
-<iframe 
-src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=375d7675-aa5a-493b-88dc-8c3d1137e2d1&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-width="640" 
-height="360" 
-frameborder="0" 
-scrolling="no" 
-allowfullscreen 
-title="Como recuperar la contraseña.mov">
-</iframe>
-</center>
+<div class="video-wrapper">
+  <iframe 
+  src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=375d7675-aa5a-493b-88dc-8c3d1137e2d1&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+  frameborder="0"
+  scrolling="no"
+  allowfullscreen
+  title="Como recuperar la contraseña.mov">
+  </iframe>
+</div>
 
 <br><br>
-<center><h2>CONFIGURACION MFA</h2></center><br>
+
 <!-- VIDEO 3 -->
-<center>
-<iframe 
-src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=f9f8f8ae-bb04-4ceb-b2a7-e15d41fe5c26&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-width="640" 
-height="360" 
-frameborder="0" 
-scrolling="no" 
-allowfullscreen 
-title="MFA.mp4">
-</iframe>
-</center>
+<div class="video-wrapper">
+  <iframe 
+  src="https://izzitelco.sharepoint.com/sites/ops/rh/dh/sdc/cc24/_layouts/15/embed.aspx?UniqueId=f9f8f8ae-bb04-4ceb-b2a7-e15d41fe5c26&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+  frameborder="0"
+  scrolling="no"
+  allowfullscreen
+  title="MFA.mp4">
+  </iframe>
+</div>
 
 <br><br>
+
+<center>
+<img id="img2" src="CCI.png" alt="imagen">
+</center>
+
 </div>
 
 </body>
-
 </html>
+
 
